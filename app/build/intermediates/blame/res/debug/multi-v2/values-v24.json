@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\eran.segal.MALAMTEAMDEV\\Documents\\HackerU\\MyWallet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\eran.segal.MALAMTEAMDEV\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-1.0.0-beta01.aar\\56dce62cca1fc7729b94c049e9b9efe4\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\eran.segal.MALAMTEAMDEV\\.gradle\\caches\\transforms-2\\files-2.1\\2ff3a8ae1b644dbbda35fe1cc0eff9c0\\appcompat-1.0.0-beta01\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\eran.segal.MALAMTEAMDEV\\.gradle\\caches\\transforms-1\\files-1.1\\media-1.0.0-beta01.aar\\be6f9379e91ec2e0facb37f822569a5b\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\eran.segal.MALAMTEAMDEV\\.gradle\\caches\\transforms-2\\files-2.1\\434a9c36b14c84726e783df82e1271c2\\media-1.0.0-beta01\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

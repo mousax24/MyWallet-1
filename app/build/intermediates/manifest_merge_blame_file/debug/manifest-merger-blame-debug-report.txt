@@ -27,28 +27,29 @@
 18-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:11:9-54
 19        android:supportsRtl="true"
 19-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:12:9-35
-20        android:theme="@style/AppTheme" >
-20-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:13:9-40
-21        <activity
-21-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:15:9-22:20
-22            android:name="com.sgl.mywallet.HomeActivity"
-22-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:15:19-47
-23            android:theme="@style/AppTheme.NoActionBar" >
-23-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:16:13-56
-24            <intent-filter>
-24-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:17:13-21:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:18:17-69
-25-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:18:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:20:17-77
-27-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:20:27-74
-28            </intent-filter>
-29        </activity>
-30        <activity android:name="com.sgl.mywallet.MainActivity" />
-30-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:23:9-50
-30-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:23:19-47
-31    </application>
-32
-33</manifest>
+20        android:testOnly="true"
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity
+22-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:15:9-22:20
+23            android:name="com.sgl.mywallet.HomeActivity"
+23-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:15:19-47
+24            android:theme="@style/AppTheme.NoActionBar" >
+24-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:16:13-56
+25            <intent-filter>
+25-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:17:13-21:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:18:17-69
+26-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:18:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:20:17-77
+28-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:20:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity android:name="com.sgl.mywallet.MainActivity" />
+31-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:23:9-50
+31-->C:\Users\eran.segal.MALAMTEAMDEV\Documents\HackerU\MyWallet\app\src\main\AndroidManifest.xml:23:19-47
+32    </application>
+33
+34</manifest>
