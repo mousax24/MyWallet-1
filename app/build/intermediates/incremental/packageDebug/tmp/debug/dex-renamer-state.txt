@@ -1,4 +1,4 @@
-#Mon Feb 10 22:32:22 CET 2020
+#Tue Feb 11 23:25:39 CET 2020
 base.0=C\:\\Users\\eran.segal.MALAMTEAMDEV\\Documents\\HackerU\\MyWallet\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

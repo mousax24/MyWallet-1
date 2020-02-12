@@ -812,6 +812,7 @@ id topPanel
 id tv_logo
 id tv_subtitle
 id tv_title
+id txt
 id uniform
 id up
 id useLogo

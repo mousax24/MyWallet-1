@@ -6,11 +6,16 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.content.Context;
 import android.os.Bundle;
+
+import com.backendless.Backendless;
 
 import java.util.ArrayList;
 
 public class HomeActivity extends AppCompatActivity {
+
+    private Context context;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,12 +28,20 @@ public class HomeActivity extends AppCompatActivity {
         pagerAdapter.addFragmet(new LoginFragment());
         pagerAdapter.addFragmet(new RegisterFragment());
         viewPager.setAdapter(pagerAdapter);
+        setPointer();
+    }
+
+    private void setPointer() {
+        this.context = this;
+        Backendless.initApp(context, Defaults.APPLICATION_ID, Defaults.API_KEY);
+
+
     }
 
     class AuthenticationPagerAdapter extends FragmentPagerAdapter {
         private ArrayList<Fragment> fragmentList = new ArrayList<>();
 
-        public AuthenticationPagerAdapter(FragmentManager fm) {
+        AuthenticationPagerAdapter(FragmentManager fm) {
             super(fm);
         }
 

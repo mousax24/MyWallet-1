@@ -4,8 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.os.Bundle;
-
-import com.backendless.Backendless;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setPointer() {
         this.context = this;
-        Backendless.initApp(Defaults.APPLICATION_ID, Defaults.API_KEY);
+        String name = getIntent().getStringExtra("str");
+        ((TextView)findViewById(R.id.txt)).setText(name);
     }
 }
